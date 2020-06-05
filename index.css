@@ -1,0 +1,8 @@
+.formbox {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  float: none;
+}
