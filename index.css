@@ -4,3 +4,64 @@
   margin-right: auto;
   width: 100%;
 }
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+.ul_padding {
+  list-style-type: none;
+  margin: 5%;
+  padding-left: 70%;
+}
+
+.li- {
+  display: inline;
+}
+
+.btn-group button {
+  background-color: black; /* Green background */
+  border: 0px solid black; /* Green border */
+  color: white; /* White text */
+  font-size: 12;
+  text-indent: 0;
+  padding: 5px 1px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  /* opacity: .3 */
+  background-color: #2a2a2a;
+}
+
+.desktop-padding {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+ padding-top: .5%;
+ padding-right: .5%;
+ padding-bottom: .5%;
+ padding-left: 60%;
+
+}
